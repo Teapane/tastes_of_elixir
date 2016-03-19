@@ -15,3 +15,10 @@ defmodule Quadratic do
     end
   end
 end
+
+@doc """
+  iex(2)> Quadratic.roots(1, 2, 3)
+  Roots of a quadratic function (1, 2, 3)
+    the complex roots are -1.0 +/- 1.4142135623730951*i
+  :ok
+  """
